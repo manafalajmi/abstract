@@ -1,0 +1,40 @@
+[debug] [2018-05-27T00:58:46.745Z] ----------------------------------------------------------------------
+[debug] [2018-05-27T00:58:46.747Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manaf\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-27T00:58:46.747Z] CLI Version:   3.18.5
+[debug] [2018-05-27T00:58:46.747Z] Platform:      win32
+[debug] [2018-05-27T00:58:46.747Z] Node Version:  v8.11.1
+[debug] [2018-05-27T00:58:46.748Z] Time:          Sat May 26 2018 17:58:46 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-27T00:58:46.748Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-27T00:58:46.760Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-27T00:58:46.761Z] > authorizing via signed-in user
+[debug] [2018-05-27T00:58:46.763Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/abstractplusplus  
+  
+ Sat May 26 2018 17:58:46 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-27T00:58:47.328Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-27T00:58:47.329Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/abstractplusplus/tokens  
+  
+ Sat May 26 2018 17:58:47 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-27T00:58:48.070Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-27T00:58:48.071Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/abstractplusplus  
+  
+ Sat May 26 2018 17:58:48 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-27T00:58:48.385Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\manaf\Desktop\abstract++'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-27T00:59:00.477Z] Fetching environment
+[debug] [2018-05-27T00:59:00.480Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/330124492735:getServerAppConfig  
+  
+ Sat May 26 2018 17:59:00 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-27T00:59:00.480Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/330124492735/clients/_:getWebAppConfig  
+  
+ Sat May 26 2018 17:59:00 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-27T00:59:01.194Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-27T00:59:01.487Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-27T00:59:01.488Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-05-27T00:59:08.792Z] Parsing function triggers
